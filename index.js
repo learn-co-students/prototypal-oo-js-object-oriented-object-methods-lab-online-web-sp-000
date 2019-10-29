@@ -4,13 +4,21 @@ function BoardMember(name, homeState, training) {
   this.training = training;
 };
 
-BoardMember.prototype.veto = () => `No, I must disagree`;
+BoardMember.prototype.veto = function() {
+  return `No, I must disagree`;
+};
 
-BoardMember.prototype.approve =  () => `You can do that!`;
+BoardMember.prototype.approve = function() {
+  return `You can do that!`;
+};
 
-BoardMember.prototype.doCharity = () => `I like to help people.`;
+BoardMember.prototype.doCharity = function() {
+  return `I like to help people.`;
+};
 
-BoardMember.prototype.releasePressStatement = () => `You will see great things from Scuber.`;
+BoardMember.prototype.releasePressStatement = function() {
+  return `You will see great things from Scuber.`;
+};
 
 BoardMember.prototype.sayHi = function(){
   return `Hi, my name is ${this.name}. I am from ${this.homeState}, and I was trained in ${this.training}.`;
