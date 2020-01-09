@@ -54,14 +54,13 @@ describe('boardMembers', function() {
     })
   })
 
-  describe('sayHi()', function() {
-    let polishedBoardMember;
-    before(() => {
-      polishedBoardMember = new BoardMember("Mr. Polished", "New York", "law")
-    })
-    it('returns "Hi, my name is <name>. I am from <homestate>, and I was trained in <training>."', function() {
-      expect(polishedBoardMember.sayHi()).to.equal("Hi, my name is Mr. Polished. I am from New York, and I was trained in law.")
-    })
-  })
+  // describe('sayHi()', function() {
+  //   let polishedBoardMember;
+  //   before(() => {
+  //     polishedBoardMember = new BoardMember("Mr. Polished", "New York", "law")
+  //   })
+  //   it('returns "Hi, my name is <name>. I am from <homestate>, and I was trained in <training>."', function() {
+  //     expect(polishedBoardMember.sayHi()).to.equal("Hi, my name is Mr. Polished. I am from New York, and I was trained in law.")
+  //   })
+  // })
 })
-
