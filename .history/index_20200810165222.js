@@ -9,11 +9,11 @@ BoardMember.prototype.veto = function(){
 }
 
 BoardMember.prototype.approve = function(){
-       return 'You can do that!'
+       return 'You can do that'
    }
    
 BoardMember.prototype.doCharity = function(){
-       return 'I like to help people.'
+       return 'I like to help people'
    }
 
 BoardMember.prototype.releasePressStatement = function(){
