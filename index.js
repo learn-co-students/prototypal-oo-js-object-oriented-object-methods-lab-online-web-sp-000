@@ -1,3 +1,4 @@
+console.log(testing)
 function BoardMember(name, homeState, training){
     this.name = name
     this.homeState = homeState
